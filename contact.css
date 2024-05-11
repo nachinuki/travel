@@ -1,0 +1,55 @@
+#logo {
+  color: rgb(120, 163, 167);
+}
+
+header {
+  position: static;
+  font-size: 18px;
+}
+
+header a {
+  color: rgb(105, 168, 179);
+  font-size: 18px;
+}
+
+header nav a:hover {
+  color: rgb(123, 165, 177);
+  background-color: rgb(151, 176, 184);
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+#contact-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.form-row {
+  margin: 16px;
+}
+
+select,
+textarea,
+input[type="text"] {
+  background-color: rgba(138, 180, 199, 0.685);
+  padding: 10px;
+  border-color: rgb(220, 242, 245);
+  width: 100%;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+button {
+  color: rgb(46, 58, 63);
+  background-color: rgba(153, 184, 192, 0.486);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 22px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(110, 144, 153);
+  box-shadow: rgb(199, 199, 199) 2px 4px 5px;
+}

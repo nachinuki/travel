@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>travels ☆</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="shared.css" />
+
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/places.html">places</a>
+            <a id="logo" href="index.html">travels</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="contact-form" 
+      action="https://formspree.io/f/xpzvbojj"
+      method="POST">
+      <form action="">
+        <div class="form-row">
+          <label for="name">name</label>
+          <input type="text" id="name"
+          name="name" 
+          placeholder="ur name" />
+        </div>
+        <div class="form-row">
+          <label for="city">country</label>
+          <select name="city" id="city">
+            <option disabled selected value>choose ur city</option>
+            <option value="barcelona">barcelona</option>
+            <option value="paris">paris</option>
+            <option value="sydney">sydney</option>
+            <option value="lisbon">lisbon</option>
+            <option value="amsterdam">amsterdam</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>when?</label>
+          <input type="radio" id="winter" value="winter" name="season" />
+          <label for="winter">winter</label>
+          <input type="radio" id="spring" value="spring" name="season" />
+          <label for="spring">spring</label>
+          <input type="radio" id="summer" value="summer" name="season" />
+          <label for="summer">summer</label>
+          <input type="radio" id="autumn" value="autumn" name="season" />
+          <label for="autumn">autumn</label>
+        </div>
+        <div class="form-row">
+          <label for="message">ur message</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <button type="submit">send</button>
+      </form>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com"
+            ><img src="images/icons/facebook-5222.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com"
+            ><img src="images/icons/instagram-logo-3286.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
