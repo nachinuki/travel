@@ -27,7 +27,7 @@ ul {
 }
 
 #hero {
-  background-image: url("/images/background.jpg");
+  background-image: url("./images/background.jpg");
   height: 1000px;
   width: 1000px;
   background-position: center;
